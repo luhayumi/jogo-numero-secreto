@@ -11,7 +11,7 @@ function exibirTextoTela(tag, texto){
 
 function mensagemInicial(){
     exibirTextoTela("h1", "Número Secreto");
-    exibirTextoTela("p", "Escolha um número entre 1 e 100");
+    exibirTextoTela("p", "Escolha um número entre 1 e 50");
 }
 
 mensagemInicial();
@@ -38,7 +38,7 @@ function verificarChute() {
 }
 
 function gerarNumero() {
-    let numeroEscolhido = parseInt(Math.random()*100 + 1);
+    let numeroEscolhido = parseInt(Math.random()*50 + 1);
 
     if(listaNumeros==3){
         listaNumeros=[];
